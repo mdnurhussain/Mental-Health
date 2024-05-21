@@ -1,19 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mental Health</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swap</title>
+  <!-- Daisy Ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font-awesome -->
+  <script src="https://kit.fontawesome.com/e3b310c377.js" crossorigin="anonymous"></script>
+  <Style>
+    .poppins {
+      font-family: "Poppins", sans-serif;
+    }
+  </Style>
+
 </head>
-<body>
-    <header>
 
-    </header>
-    <main>
+<body class="poppins bg-[#faf5f0]">
+  <header>
+    <!-- Nav section  -->
+    <div class="navbar  ">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+        </div>
+        <a href="index.html" class="btn btn-ghost text-3xl">Swap</a>
+      </div>
+      <div class="navbar-end gap-10">
+        <a href="iamfeeling.html" class="btn bg-[#587044] text-white"> what you feel </a>
+        <a href="professional.html" class="btn btn-wide bg-yellow-300 ">Our professionals</a>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div class="hero min-h-screen ">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src="/images/Screenshot 2024-05-07 021519.png" class="" />
+        <div>
+          <h1 class="text-5xl font-bold ">Mental Health in</h1>
+          <h1 class="text-5xl font-semibold mt-5">Bangladesh</h1>
+          <p class="py-6">The reported prevalence of mental disorders varied from 6.5 to 31.0% among adults and from
+            13.4 to 22.9% among children. Some awareness regarding mental health disorders exists at community level.
+            There is a negative attitude towards treatment of those affected and treatment is not a priority in health
+            care delivery</p>
+          <a href="get.html" class="btn btn-wide bg-[#587044] text-white">Urgent Support </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Features -->
+    <div class="mb-16">
+      <h1 class="text-4xl font-semibold ml-16 ">Do you have...?</h1>
+    </div>
+    <section class=" flex gap-10 items-center m-14">
+      <div class="card  bg-[#E8E5F3] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/sleeping_1830852.png" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Sleep</h2>
+          <p>Having Trouble Sleeping?</p>
 
-    </main>
-    <footer>
-        
-    </footer>
+        </div>
+      </div>
+      <div class="card  bg-[#E5ECF3] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Anxiety</h2>
+          <p>Feeling anxiety?</p>
+
+        </div>
+      </div>
+      <div class="card  bg-[#F6EED9] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Depression</h2>
+          <p>Feeling low?</p>
+
+        </div>
+      </div>
+      <div class="card  bg-[#FBE9E6] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Stress</h2>
+          <p>Feeling stressed?</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- new section -->
+    <div class="mb-10 mt-20">
+      <h1 class="text-4xl font-semibold ml-16 ">I want help with...</h1>
+    </div>
+    <section class=" grid grid-cols-2 gap-10 place-items-center m-14">
+      <div class="card  bg-[#E8E5F3] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/sleeping_1830852.png" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Sleep</h2>
+          <a href="http://localhost:3000/" class="btn btn-wide bg-[#587044] text-white">Chat with
+              professionals</a>
+
+
+        </div>
+      </div>
+      <div class="card  bg-[#E5ECF3] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Anxiety</h2>
+          <a href="http://localhost:3000/" class="btn btn-wide bg-[#587044] text-white">Chat with
+            professionals</a>
+
+        </div>
+      </div>
+      <div class="card  bg-[#F6EED9] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Depression</h2>
+          <a href="http://localhost:3000/" class="btn btn-wide bg-[#587044] text-white">Chat with
+            professionals</a>
+
+        </div>
+      </div>
+      <div class="card  bg-[#FBE9E6] shadow-xl">
+        <figure class="px-10 pt-10">
+          <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Stress</h2>
+          <a href="http://localhost:3000/" class="btn btn-wide bg-[#587044] text-white">Chat with
+            professionals</a>
+        </div>
+      </div>
+    </section>
+    <!-- what you feel  -->
+    <section>
+      <div class="mb-16">
+        <h1 class="text-4xl font-semibold ml-16 ">What you feel...</h1>
+      </div>
+      <section class=" flex gap-10 items-center m-14">
+        <div class="card  bg-[#E8E5F3] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img class="w-[40%]" src="images/sleeping_1830852.png" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Sad</h2>
+            <p>Are you sad?</p>
+            <button class="btn btn-outline btn-success   text-white " onclick="my_modal_6.showModal()">Click</button>
+            <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                <p class="py-4"> <span class="font-bold text-red-300">
+                    Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu
+                    bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
+                  </span> <br>
+
+                  “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and
+                  laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being
+                  overcome by debt and being overpowered by men.”</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+
+          </div>
+        </div>
+        <div class="card  bg-[#E5ECF3] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Anxiety</h2>
+            <p>Feeling anxiety?</p>
+            <button class="btn btn-outline btn-success   text-white " onclick="my_modal_5.showModal()">Click</button>
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                <p class="py-4 "><span class="font-bold text-red-300">
+                    Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa Rabbu-l-ʿArshi-l-ʿaẓīm.
+                  </span> <br>
+
+                  ” Allah is sufficient for me. There is no god worthy of worship except Him. I have placed my trust in
+                  Him only and He is the Lord of the Magnificent Throne.”</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+
+          </div>
+        </div>
+        <div class="card  bg-[#F6EED9] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Depression</h2>
+            <p>Feeling low?</p>
+            <button class="btn btn-outline btn-success   text-white " onclick="my_modal_8.showModal()">Click</button>
+            <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan,
+                    wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min
+                    ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+
+                  “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and
+                  laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being
+                  overcome by debt and being overpowered by men.”</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+
+          </div>
+        </div>
+        <div class="card  bg-[#FBE9E6] shadow-xl">
+          <figure class="px-10 pt-10">
+            <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Stress</h2>
+            <p>Feeling stressed?</p>
+            <button class="btn btn-outline btn-success   text-white " onclick="my_modal_1.showModal()">Click</button>
+            <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan,
+                    wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min
+                    ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+
+                  “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and
+                  laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being
+                  overcome by debt and being overpowered by men.”</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+
+          </div>
+        </div>
+      </section>
+      <div class="text-center">
+        <button class="btn  bg-[#587044]  text-white "><a href="iamfeeling.html">See more</a></button>
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="footer p-10 bg-[#FFF8F2] font-bold mt-20">
+
+    <div class="ml-10">
+      <h1 class="text-3xl "><a href="index.html">Swap</a></h1>
+      <p class="">A Journey of Understanding, Healing <br>and Resilience in a Chaotic World.</p>
+    </div>
+    <div class="ml-16">
+      <h6 class="">Download Our App</h6>
+      <div class="grid grid-flow-col gap-4 text-xs">
+        <a><img src="images/playstore.png" alt=""></a>
+
+        <a>Get it on <br> Google play Store</a>
+      </div>
+
+    </div>
+
+
+  </footer>
 </body>
+
 </html>
